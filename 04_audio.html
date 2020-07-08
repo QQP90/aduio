@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="gb2312">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <!-- <link href="css/base.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./css/pb.css">
+    <link rel="stylesheet" href="./css/audio.css">
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/audio.min.js"></script>
+    <!-- <script src="js/qrcode.js"></script> -->
+    <!-- <script src="js/common.js"></script> -->
+    <script>
+        //音频播放器
+        audiojs.events.ready(function () {
+            audiojs.createAll();
+        });
+    </script>
+
+    <base target="_blank">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="left"></div>
+        <div class="title">健康大讲堂</div>
+        <div class="right_top"></div>
+    </div>
+
+    <div class="wrap">
+        <div class="main">
+            <div class="audioplayer pr">
+                <div class="l_w pa">
+                    <em class="item-data readed"><img src="./images/icon_readed.png" alt=""> 2365</em><em
+                        class="item-data liked"><img src="./images/icon_liked.png" alt=""> 12654</em>
+                </div>
+                <div class="audioinfo ">
+                   
+                    <strong>"出现呼吸道症状的原因是什么？ "</strong>
+                    <img src="images/sample.gif">
+                </div>
+                <audio src="images/test.mp3" preload="auto" />
+            </div>
+
+            <div class="fyr">为您推荐<span class="refresh">换一换</span></div>
+            <ul class="list">
+                <li class="item-audio">
+                    <a class="cover" href="#"><em class="item-data pa"><img
+                                src="./images/icon_heard_white.png" alt="">2365</em></a>
+                    <strong><a href="#">心血管疾病该如何正确预防</a></strong>
+                </li>
+                <li class="item-audio">
+                    <a class="cover" href="#"><em class="item-data pa"><img
+                                src="./images/icon_heard_white.png" alt="">2365</em></a>
+                    <strong><a href="#">心血管疾病该如何正确预防</a></strong>
+                </li>
+                <li class="item-audio">
+                    <a class="cover" href="#"><em class="item-data pa"><img src="./images/icon_heard_white.png"
+                                alt="">2365</em></a>
+                    <strong><a href="#">心血管疾病该如何正确预防</a></strong>
+                </li>
+                <li class="item-audio">
+                    <a class="cover" href="#"><em class="item-data pa"><img
+                                src="./images/icon_heard_white.png" alt="">2365</em></a>
+                    <strong><a href="#">心血管疾病该如何正确预防</a></strong>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="footer_box">
+            <p>Copyright &copy; 广州市第一人民医院 版权所有</p>
+            <p>ICP备案号：粤ICP备17084739号 技术支持：<a href="#">39健康网</a></p>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script src="./js/setFontSize.js"></script>
+<script>
+    var i=0
+    $('.l_w .liked').click(function(){
+        console.log(1258)
+        i++
+        if(i%2!=0){
+            $(this).find('img').attr('src','./images/icon_liked_red.png')
+        }else{
+            $(this).find('img').attr('src','./images/icon_liked.png')
+        }
+    })
+</script>

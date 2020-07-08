@@ -1,0 +1,49 @@
+.wrap {
+  margin-top: 0.2rem;
+}
+.wrap .main .item-video {
+  margin-bottom: 0.4rem;
+}
+.wrap .main .item-video .cover {
+  width: 7.5rem;
+  height: 4.21rem;
+  border-radius: 0.1rem;
+  background-color: #efefef;
+  overflow: hidden;
+  display: block;
+  position: relative;
+}
+.wrap .main .item-video .cover::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2) url(../images/icon_play.png) 0.2rem 3.4rem no-repeat;
+  top: 0;
+  left: 0;
+  background-size: 0.6rem;
+}
+.wrap .main .item-video .cover img {
+  width: 100%;
+  height: 100%;
+}
+.wrap .main .item-video strong {
+  padding: 0.2rem;
+  font-size: 0.32rem;
+  line-height: 0.5rem;
+  color: #333333;
+  display: block;
+  font-weight: normal;
+  color: #333;
+}
+.wrap .main .item-video .icon-btn {
+  float: right;
+}
+.wrap .main .item-video .icon-btn .item-data {
+  margin-right: 0.2rem;
+}
+.wrap .main .item-video .icon-btn .item-data img {
+  width: 0.4rem;
+  height: 0.28rem;
+  vertical-align: middle;
+}

@@ -1,0 +1,239 @@
+html,
+body,
+div,
+span,
+p,
+a,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+cite,
+code,
+em,
+del,
+font,
+img,
+ins,
+small,
+strong,
+b,
+i,
+center,
+form,
+label,
+input,
+textarea,
+button,
+select,
+th,
+td {
+  padding: 0;
+  margin: 0;
+}
+ol,
+ul,
+li,
+dl,
+dt,
+dd {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1em;
+}
+em,
+i,
+cite {
+  font-weight: normal;
+  font-style: normal;
+}
+img,
+iframe {
+  border: none;
+  vertical-align: top;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+input,
+textarea,
+button,
+select {
+  border: none;
+  outline: none;
+  font-family: Microsoft Yahei;
+}
+body {
+  font-size: 0.28rem;
+  line-height: 0.48rem;
+  font-family: Microsoft Yahei;
+  color: #999;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: #333;
+  transition: all 0.25s;
+}
+a:hover {
+  text-decoration: underline;
+  color: #32b066;
+}
+body {
+  background: #fff;
+}
+.header {
+  display: flex;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  padding: 0 0.3rem;
+}
+.header .left {
+  width: 0.6rem;
+  height: 0.6rem;
+  background-image: url(../images/left.png);
+  background-size: 0.6rem 0.6rem;
+}
+.header .title {
+  flex: 1;
+  text-align: center;
+  font-size: 0.32rem;
+  color: #000;
+}
+.header .right_top {
+  height: 0.6rem;
+  width: 0.6rem;
+  background-image: url(../images/right_top.png);
+  background-size: 0.6rem 0.6rem;
+}
+.footer {
+  font-family: PingFang-SC-Regular;
+  font-size: 0.24rem;
+  color: #999999;
+  padding: 0.4rem;
+}
+.footer .footer_box {
+  text-align: center;
+}
+.footer .footer_box p a {
+  color: #999;
+}
+.side {
+  padding: 0 0.2rem;
+}
+.side .nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.02rem solid #f2f2f2;
+  overflow-x: auto ;
+}
+.side .nav li {
+  margin-right: 0.4rem;
+  padding-bottom: 0.16rem;
+  font-family: PingFang-SC-Regular;
+  flex-shrink: 0;
+}
+.side .nav li:last-child {
+  margin-right: 0;
+}
+.side .nav li a {
+  font-size: 0.32rem;
+  font-family: PingFang-SC-Regular;
+  color: #333333;
+}
+.side .nav li img {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.current {
+  font-weight: 600;
+  border-bottom: 0.04rem solid #e60321;
+}
+.banner {
+  width: 100%;
+  height: 3.6rem;
+  background-image: url(../images/wapbanner.png);
+  background-size: 7.5rem 3.6rem;
+  background-repeat: no-repeat;
+  margin: 0.3rem 0;
+  overflow: hidden;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+.banner p {
+  width: 100%;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 0.3rem;
+  bottom: 0;
+  background: url('https://image.39.net/client/AsiaPharmacy/pc/images/bg.png');
+}
+.banner p a {
+  color: #ffffff;
+}
+.pr {
+  position: relative;
+}
+.pa {
+  position: absolute;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.load_more {
+  width: 100%;
+  text-align: center;
+  margin-top: 0.36rem;
+}
+.load_more a {
+  color: #999;
+}
+.load_more img {
+  width: 0.4rem;
+  height: 0.4rem;
+  vertical-align: middle;
+}
+.clear {
+  clear: both;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+}
+.tab {
+  width: 100%;
+  text-align: center;
+  border-bottom: 0.02rem solid #f2f2f2;
+}
+.tab ul {
+  width: 3.6rem;
+  display: flex;
+  color: #999;
+  margin: 0 auto;
+  font-size: 0.3rem;
+  justify-content: space-around;
+}
+.tab ul li {
+  text-align: center;
+  cursor: pointer;
+}

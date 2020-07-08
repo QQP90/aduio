@@ -1,0 +1,124 @@
+.wrap {
+  margin-top: 0.2rem;
+}
+.wrap .main {
+  padding: 0 0.25rem;
+}
+.wrap .main .form {
+  display: flex;
+  justify-content: space-between;
+}
+.wrap .main .form .search {
+  width: 6.2rem;
+  height: 0.7rem;
+}
+.wrap .main .form .search input {
+  border: 0.02rem solid #f2f2f2;
+  width: 5.5rem;
+  height: 0.7rem;
+  background-color: #f8f8f8;
+  border-radius: 0.35rem;
+  padding-left: 0.7rem;
+}
+.wrap .main .form .search button {
+  width: 0.32rem;
+  height: 0.34rem;
+  line-height: 0.34rem;
+  background: url('../images/icon_search.png') no-repeat center;
+  background-size: 0.32rem 0.34rem;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0.2rem;
+}
+.wrap .main .form .search .fal {
+  width: 0.32rem;
+  height: 0.32rem;
+  border-radius: 0.16rem;
+  background: #fff url('https://image.39.net/client/yszy/wap_yszy/images/false (5).png') no-repeat center;
+  background-size: 0.32rem 0.32rem;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0.2rem;
+}
+.wrap .main .form .cal {
+  line-height: 0.7rem;
+  font-size: 0.3rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0rem;
+  color: #666666;
+}
+.wrap .main .search_content {
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrap .main .search_content .bg_noresult {
+  width: 2.52rem;
+  height: 2.07rem;
+  background: url(../images/bg_noresult.png) no-repeat center;
+  background-size: 2.52rem 2.07rem;
+}
+.wrap .main .searchlist {
+  margin-top: 0.2rem;
+}
+.wrap .main .searchlist .item-art {
+  padding: 0.16rem 0 0.3rem;
+  border-bottom: 0.02rem solid #f2f2f2;
+}
+.wrap .main .searchlist .item-art strong {
+  font-size: 0.34rem;
+  font-weight: normal;
+  letter-spacing: 0rem;
+  color: #333333;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.wrap .main .searchlist .item-art strong a b {
+  color: #e60321;
+}
+.wrap .main .searchlist .item-art i {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.24rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0rem;
+  color: #999999;
+  line-height: 0.24rem;
+}
+.wrap .main .hot_kw {
+  margin-top: 0.5rem;
+}
+.wrap .main .hot_kw .title {
+  font-size: 0.3rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 0.52rem;
+  letter-spacing: 0rem;
+  color: #666666;
+  margin-bottom: 0.34rem;
+}
+.wrap .main .hot_kw .kw_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrap .main .hot_kw .kw_list li {
+  padding: 0 0.5rem;
+  height: 0.7rem;
+  line-height: 0.7rem;
+  background-color: #f8f8f8;
+  border-radius: 0.35rem;
+  font-size: 0.3rem;
+  font-weight: normal;
+  font-stretch: normal;
+  color: #666666;
+  margin-right: 0.2rem;
+  flex-shrink: 0;
+  margin-bottom: 0.2rem;
+}
